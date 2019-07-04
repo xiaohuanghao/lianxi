@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">L03_Component</string>
+    <string name="title_activity_simple_component">SimpleComponentActivity</string>
 </resources>
