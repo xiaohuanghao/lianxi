@@ -8,5 +8,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="这是TextView的内容"
-    android:background="#999999"/>
+    android:background="#999999"
+    android:textColor="#ff6543"
+    android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_simple_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        android:inputType="phone"/>
+    <Button
+        android:id="@+id/btn_simple_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"/>
+
 </LinearLayout>
